@@ -18,12 +18,7 @@ class DataImporter:
 		self.exchange = exchange
 		self.all_assets = ["BTC","ETH","LTC","ZEC"]
 		self.assets = ["BTC","ETH","LTC"]
-		self.key1 = "6E184057-AA78-4E00-9A55-A3C266A46DA9" #given using my email id
-		self.key2 = "F7A610B4-5B10-41C0-9D5E-1F2D795B868A"
-		self.key3 = "C1F60FB8-8F88-4AA8-A4F9-9D943D82403D"
-		self.key4 = "B05D6372-72D1-4176-86D7-8AA212451325"
-		self.key5 = "5BB40162-0C14-4A36-BD65-E810DF4091C8"
-		self.key6 = "8BB73C5B-51C3-48BE-AC67-CE4792CA4831"
+		
 		self.history_keys = [self.key3, self.key4, self.key5, self.key6]
 		
 		#extra attributes of dates(today and yesterday) to represent file names later
